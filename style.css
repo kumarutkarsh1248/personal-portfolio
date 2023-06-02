@@ -14,18 +14,18 @@
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: rgb(188, 182, 183);
     border-width: 5px;
     /* width: 50%;  */
   }
 a{
-    color: rgb(83, 52, 143)
+    color: rgb(46, 32, 237)
 }
 canvas{
     width: 100%;
     height: 100vh;
     position:absolute;
-    background-color: #2B3467;
+    background-color: #1b234c;
     z-index:-1;
 }
 
@@ -58,16 +58,17 @@ canvas{
 .ball1{
     width: 30vh;
     height: 30vh;
-    background: linear-gradient(#b7bbd1, #10145d);
+    background: linear-gradient(#7e829c, #13175e);
     position: absolute;
     top: 10vh;
     left: 10vw;
     border-radius: 100%;
+    border:#edeef4
 }
 .ball2{
     width: 15vh;
     height: 15vh;
-    background: linear-gradient( #1a2876,#c6c9db);
+    background: linear-gradient( #111b50,#8790c0);
     position: absolute;
     bottom: 15vh;
     right: 20vw;
@@ -128,8 +129,8 @@ canvas{
 
 
 .projects{
-    background-image: -webkit-linear-gradient(45deg, #a5b8e7 50%, #edeef4 50%);
-
+    background-image: -webkit-linear-gradient(45deg, #9da0f4 50%, #edeef4 50%);
+    color: rgb(52, 49, 49);
     padding: 5% 20%
 }
 .projects h1{
