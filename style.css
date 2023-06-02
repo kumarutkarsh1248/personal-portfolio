@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Montserrat";
+    /* font-family: 'Rajdhani', sans-serif; */
+}
+::-webkit-scrollbar{
+    width: 10px
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background-color: #2d4ada;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    /* width: 50%;  */
+  }
+a{
+    color: rgb(83, 52, 143)
+}
+canvas{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    background-color: #2B3467;
+    z-index:-1;
+}
+
+.heading{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-content{
+    text-align: right;
+    display: inline-block;
+}
+.heading h1{
+    color: rgb(239, 235, 235);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 20px;
+    text-align: right;
+}
+.heading h4{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: right;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    text-align: right; 
+}
+.ball1{
+    width: 30vh;
+    height: 30vh;
+    background: linear-gradient(#b7bbd1, #10145d);
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    border-radius: 100%;
+}
+.ball2{
+    width: 15vh;
+    height: 15vh;
+    background: linear-gradient( #1a2876,#c6c9db);
+    position: absolute;
+    bottom: 15vh;
+    right: 20vw;
+    border-radius: 100%;
+}
+
+
+.skills{
+    padding: 5% 10%;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.feature-box{
+    display: inline-block;
+    flex-basis:33.33333%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.feature-box img {
+    height: 15vh; 
+}
+
+
+
+.about{
+    background-color: #FCFFE7;
+    background-image: -webkit-linear-gradient(125deg, #a69cf3 50%, #edeef4 50%);
+
+    text-align: center;
+    padding: 5% 20%;
+}
+.general_information h1{
+    font-size: 3rem;
+}
+.general_information h3{
+    color: rgb(63, 61, 61);
+    margin-top: 5%
+}
+.information{
+    margin-top: 5%;
+    text-align: left;
+}
+.information h2{
+    margin-top: 3%;
+    display: inline-block
+}
+.key{
+    color: rgb(225, 88, 88);
+    margin-right: 1%;
+}
+
+
+.projects{
+    background-image: -webkit-linear-gradient(45deg, #a5b8e7 50%, #edeef4 50%);
+
+    padding: 5% 20%
+}
+.projects h1{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    text-align: center;
+}
+.projects_images{
+    margin-top: 0%;
+    text-align: center;
+}
+.projects_inner_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 35%; */
+    margin: 2% 0;
+}
+.image_container {
+    aspect-ratio: 1/1;
+    height: 15vw;
+    /* margin: 5% 0%; */
+    display: inline-block;
+    margin: 0 5%;
+    /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1); */
+
+
+  }
+.image_container img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: center;
+    border-radius: 70px;
+}
+.content{
+    padding: 0% 10% 5% 10%;
+}
+.tomb_runner{
+    display: flex;
+    justify-content: start;
+}
+.infinity_ball{
+    display: flex;
+    justify-content: end;
+}
+.snake{
+    display: flex;
+    justify-content: start;
+}
+.jumping_ball{
+    display: flex;
+    justify-content: end;
+}
+  
+
+
+
+.footer{
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 241, 241);
+}
+  
+  
+  
+@media(max-width: 1000px){
+    
+.skills{
+    padding: 5% 0%;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.feature-box{
+    display: inline-block;
+    flex-basis:50%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.feature-box img {
+    width: 15vw; 
+    height: 15vw;
+}
+}
+
+@media(max-width: 1000px){
+    .tomb_runner{
+        flex-direction: column;
+    }
+    .infinity_ball{
+        flex-direction: column-reverse;
+    }
+    .snake{
+        flex-direction: column;
+    }
+    .jumping_ball{
+        flex-direction: column-reverse;
+    }
+    .projects_inner_box h4{
+        font-size: 30px;
+    }
+    .projects_inner_box h5{
+        font-size: 30px;
+    }
+    .image_container {
+        aspect-ratio: 1/1;
+        height: 25vh;
+    
+      }
+}
+  
+  
+
