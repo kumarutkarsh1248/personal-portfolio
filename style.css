@@ -11,6 +11,13 @@
     border-radius: 15px;
     background-color: #2d4ada;
 }
+canvas{
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    background-color: #2B3467;
+    z-index:-1;
+}
 hr{
     border-style: none;
     border-top-style: dotted;
@@ -58,7 +65,7 @@ canvas{
 .ball1{
     width: 30vh;
     height: 30vh;
-    background: linear-gradient(#7e829c, #13175e);
+    background: linear-gradient(#7783d0, #13175e);
     position: absolute;
     top: 10vh;
     left: 10vw;
@@ -172,6 +179,9 @@ canvas{
 .tomb_runner{
     display: flex;
     justify-content: start;
+}
+.content{
+    text-align: left;
 }
 .infinity_ball{
     display: flex;
