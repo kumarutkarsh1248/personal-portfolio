@@ -112,4 +112,3 @@ document.querySelector(".celebration_img img").addEventListener("click", ()=>{
 });
 
 
-console.log(document.querySelector("#area_absolute").style)

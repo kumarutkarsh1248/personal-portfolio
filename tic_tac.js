@@ -1,4 +1,4 @@
-const apiKey = "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"
+const apiKey = "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"
 let blocks_array =[[],[],[]];
 let matrix = [[null, null, null],[null, null, null],[null, null, null]];
 let human_turn = true;
